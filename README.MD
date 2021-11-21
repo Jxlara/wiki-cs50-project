@@ -7,12 +7,12 @@ Users can view available article entries, as well as search for entries on the s
 
 ### Technologies:
 - Back-End:
-    -Python
-    -Django
+  - Python
+  - Django
 
 - Front-End:
-    -HTML (Django Templating)
-    -CSS (Bootstrap Components)
+  - HTML (Django Templating)
+  - CSS (Bootstrap Components)
 
 ### Project Requirements:
 1. Entry Page: 
