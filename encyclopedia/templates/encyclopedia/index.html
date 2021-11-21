@@ -1,0 +1,16 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+    <h1>Welcome to Wiki Pages, Happy Wiking! </h1>
+        <h4>Here are all the pages submitted by wiki users:</h4>
+    <ul>
+        {% for entry in entries %}
+            <li><a href=wiki/{{entry}}>{{ entry }}</a><li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
